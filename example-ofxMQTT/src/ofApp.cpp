@@ -1,9 +1,9 @@
 #include "ofApp.h"
 
 void ofApp::setup(){
-    client.begin("homeassistant.local", 1883);
+    client.begin("test.mosquitto.org", 1883);
     client.connect("openframeworks");
-    client.subscribe("/home/hello");
+    
     ofAddListener(client.onOnline, this, &ofApp::onOnline);
     ofAddListener(client.onOffline, this, &ofApp::onOffline);
     ofAddListener(client.onMessage, this, &ofApp::onMessage);
@@ -21,6 +21,7 @@ void ofApp::onOnline(){
     ofLog() << "online";
     
     client.subscribe("hello");
+    client.subscribe("#");
 }
 
 void ofApp::onOffline(){

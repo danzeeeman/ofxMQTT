@@ -1282,7 +1282,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6B38D1D79D8549BF1837556E</key>
+			<key>BB642AD974F4E9B2658BB304</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1293,16 +1293,16 @@
 				<key>name</key>
 				<string>mqtt_protocol.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxMQTT/libs/mqtt/include/mqtt_protocol.h</string>
+				<string>../../../addons/ofxMQTT/libs/libmosquitto/include/mqtt_protocol.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>BA9FC28BFFCF442463CE7C38</key>
+			<key>BB84395093E689D95B2ABD7D</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>CF38BBD727793C008361444F</string>
-					<string>6B38D1D79D8549BF1837556E</string>
+					<string>4086F3A77D2C65CF113BB6F5</string>
+					<string>BB642AD974F4E9B2658BB304</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -1311,16 +1311,16 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>C2723891ABE6B86623BA8544</key>
+			<key>471C4541E3F112280CDE2A5B</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>BA9FC28BFFCF442463CE7C38</string>
+					<string>BB84395093E689D95B2ABD7D</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>mqtt</string>
+				<string>libmosquitto</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
@@ -1328,7 +1328,7 @@
 			<dict>
 				<key>children</key>
 				<array>
-					<string>C2723891ABE6B86623BA8544</string>
+					<string>471C4541E3F112280CDE2A5B</string>
 					<string>464FC4CB99C8F1C94D7FE8A5</string>
 				</array>
 				<key>isa</key>
@@ -1352,7 +1352,7 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>CF38BBD727793C008361444F</key>
+			<key>4086F3A77D2C65CF113BB6F5</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1363,7 +1363,7 @@
 				<key>name</key>
 				<string>mosquitto.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxMQTT/libs/mqtt/include/mosquitto.h</string>
+				<string>../../../addons/ofxMQTT/libs/libmosquitto/include/mosquitto.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1536,10 +1536,10 @@ fi
 						<string>src</string>
 						<string>src</string>
 						<string>../../../addons/ofxMQTT/libs</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/include</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib/osx</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/include</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib/osx</string>
 						<string>../../../addons/ofxMQTT/libs/openssl</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include/openssl</string>
@@ -1590,10 +1590,10 @@ fi
 						<string>src</string>
 						<string>src</string>
 						<string>../../../addons/ofxMQTT/libs</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/include</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib/osx</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/include</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib/osx</string>
 						<string>../../../addons/ofxMQTT/libs/openssl</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include/openssl</string>
@@ -1619,7 +1619,7 @@ fi
 						<string>$(OF_CORE_LIBS)</string>
 						<string>$(OF_CORE_FRAMEWORKS)</string>
 						<string>$(LIB_OF)</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib/osx/libmosquitto_static.a</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib/osx/libmosquitto_static.a</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/lib/osx/crypto.a</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/lib/osx/ssl.a</string>
 					</array>
@@ -4407,10 +4407,10 @@ fi
 						<string>src</string>
 						<string>src</string>
 						<string>../../../addons/ofxMQTT/libs</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/include</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib/osx</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/include</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib/osx</string>
 						<string>../../../addons/ofxMQTT/libs/openssl</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include/openssl</string>
@@ -4481,10 +4481,10 @@ fi
 						<string>src</string>
 						<string>src</string>
 						<string>../../../addons/ofxMQTT/libs</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/include</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib/osx</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/include</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib/osx</string>
 						<string>../../../addons/ofxMQTT/libs/openssl</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include/openssl</string>
@@ -4619,10 +4619,10 @@ fi
 						<string>src</string>
 						<string>src</string>
 						<string>../../../addons/ofxMQTT/libs</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/include</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib/osx</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/include</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib/osx</string>
 						<string>../../../addons/ofxMQTT/libs/openssl</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include/openssl</string>
@@ -4648,7 +4648,7 @@ fi
 						<string>$(OF_CORE_LIBS)</string>
 						<string>$(OF_CORE_FRAMEWORKS)</string>
 						<string>$(LIB_OF_DEBUG)</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib/osx/libmosquitto_static.a</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib/osx/libmosquitto_static.a</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/lib/osx/crypto.a</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/lib/osx/ssl.a</string>
 					</array>
@@ -4686,10 +4686,10 @@ fi
 						<string>src</string>
 						<string>src</string>
 						<string>../../../addons/ofxMQTT/libs</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/include</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib/osx</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/include</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib/osx</string>
 						<string>../../../addons/ofxMQTT/libs/openssl</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/include/openssl</string>
@@ -4715,7 +4715,7 @@ fi
 						<string>$(OF_CORE_LIBS)</string>
 						<string>$(OF_CORE_FRAMEWORKS)</string>
 						<string>$(LIB_OF)</string>
-						<string>../../../addons/ofxMQTT/libs/mqtt/lib/osx/libmosquitto_static.a</string>
+						<string>../../../addons/ofxMQTT/libs/libmosquitto/lib/osx/libmosquitto_static.a</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/lib/osx/crypto.a</string>
 						<string>../../../addons/ofxMQTT/libs/openssl/lib/osx/ssl.a</string>
 					</array>
